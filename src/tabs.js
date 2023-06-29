@@ -3,7 +3,6 @@ import createDinnerPage from './dinner';
 import createDessertPage from './dessert';
 
 const createTabs = () => {
-    const main = document.querySelector('.main');
     const foodContent = document.querySelector('.foodContent');
     const tabContent = document.querySelector('.tabContent');
 
@@ -23,12 +22,10 @@ const createTabs = () => {
     dinnerDiv.textContent = 'Dinner';
     dessertDiv.textContent = 'Dessert';
     
-    
     tabContent.appendChild(lunchDiv);
     tabContent.appendChild(dinnerDiv);
     tabContent.appendChild(dessertDiv);
     
-
     lunchDiv.addEventListener('click', () => {
         foodContent.textContent = "";
         createLunchPage();
@@ -47,6 +44,5 @@ const createTabs = () => {
     tabContent.classList.add('tabContainer');
 
 }
-
 
 export default createTabs;

@@ -1,7 +1,6 @@
 
 function createLunchPage() {
 
-    let mainDiv = document.querySelector('.main');
     let foodContent = document.querySelector('.foodContent');
     let lunchImg = document.createElement('img');
     let lunchDiv = document.createElement('div');
@@ -10,14 +9,7 @@ function createLunchPage() {
     lunchImg.style.height = "800px";
     foodContent.appendChild(lunchDiv);
     lunchDiv.appendChild(lunchImg);
-    
-    
-    
-  
 
 }
-
-
-
 
 export default createLunchPage;

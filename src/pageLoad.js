@@ -6,7 +6,6 @@ function pageLoad() {
     createTabs();
     createSidebar();
     createMainContent();
-    
 };
 
 export default pageLoad;
