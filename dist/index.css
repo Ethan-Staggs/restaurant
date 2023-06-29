@@ -1,0 +1,210 @@
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.leftLogo{
+
+}
+
+p{
+    font-size: 40px;
+}
+
+.leftText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 300px;
+    background-image: url(https://popmenucloud.com/cdn-cgi/image/width%3D78%2Cheight%3D78%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/ktucbpvf/26688e9e-c53f-4a55-a572-8515e2940db9.png);
+    background-repeat: space;
+    padding-left: 70px;
+    font-size: 20px;
+    text-align: -webkit-right;
+    font-size: 20px;
+    font-family: ui-monospace;
+    height: 950px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.menuBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+
+}
+
+button{
+    width: 170px;
+    height: 60px;
+    width: 170px;
+    height: 60px;
+    font-size: 17px;
+    font-family: cursive;
+    background-color: #7e1418;
+    color: #fbf6f3;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: inset 170px 0 0 0 #fbf6f3;
+    color: #7e1418;
+  }
+
+
+.reserve{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.socialsDiv{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    height: 50px;
+    width: 200px;
+}
+
+.leftText img:first-child {
+    align-self: end;
+    height: 40px;
+    position: fixed;
+    opacity: 80%;
+}
+
+.main-links{
+    list-style-type: none;
+    margin-left: 15px;
+    text-align:left;
+    padding: 10px;
+    gap: 50px;
+    color: #7e1418;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secondary-links{
+    list-style-type: none;
+    margin-left: 15px;
+    text-align:left;
+    padding: 10px;
+    color: #7e1418;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+li{
+    display: flex;
+    align-items:center;
+    justify-content:start;
+    
+}
+
+.logo{
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #7e1418;
+    margin-left: 20px;
+    background-image: url("https://images.unsplash.com/photo-1611765083444-a3ce30f1c885?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFuY3klMjByZXN0YXVyYW50fGVufDB8fDB8fHww&w=1000&q=80");
+    height: 950px;
+    width: 1000px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.w3-bar{
+    margin-top: 20px;
+}
+
+.tabContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    margin: 4px;
+    height: 50px;
+    gap: 10px;
+    width: 1000px;
+    backdrop-filter: blur(4px);
+    opacity: 70%;
+    background-color: #000000;
+    
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.tabs:hover {
+    box-shadow: inset 170px 0 0 0 black;
+    color: #7e1418;
+
+}
+
+.sidebarContainer{
+    display: flex;
+    align-self: baseline;
+    
+}
+
+.foodContent{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunchDiv{
+
+}
+
+#Lunch{
+display: block;
+}
+
+#Dinner{
+display: block;
+}
+
+#Dessert{
+display: block;
+}
